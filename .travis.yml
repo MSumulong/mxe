@@ -9,4 +9,4 @@ script:
   - make check-requirements
   - make protobuf
 
-after_failure: "cat /home/travis/build/MSumulong/mxe/log/*.log"
+after_failure: "ls -1 /home/travis/build/MSumulong/mxe/log/*.log | while read fn ; do cat $fn"
