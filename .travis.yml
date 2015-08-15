@@ -8,3 +8,5 @@ before_install:
 script:
   - make check-requirements
   - make protobuf
+
+after_failure: "cat /home/travis/build/MSumulong/mxe/log/*.log"
