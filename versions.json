@@ -273,7 +273,7 @@
     "postgresql": "9.2.4",
     "primesieve": "5.4.1",
     "proj": "4.8.0",
-    "protobuf": "2.5.0",
+    "protobuf": "2.6.1",
     "pthreads": "POSIX 1003.1-2001",
     "qdbm": "1.8.78",
     "qhttpengine": "0.1.0",
